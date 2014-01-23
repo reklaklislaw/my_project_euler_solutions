@@ -1,3 +1,5 @@
+-- Finds the sum of all even fibonacci numbers less than 4,000,000 
+
 main :: IO()
 main = do
   print $ sum $ filter even $ getFibLim 4000000
