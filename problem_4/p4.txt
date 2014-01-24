@@ -1,0 +1,6 @@
+Finds the largest palindrome that is a product of two 3-digit numbers.
+
+solved this by hand:
+       91 * 99 = 9009
+       910 * 990 = 900900
+       913 * 993 = 906609 
