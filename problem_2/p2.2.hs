@@ -2,7 +2,7 @@
 
 main :: IO()
 main = do
-  print $ floor $ (fromIntegral(fib 36 ) - 1) * 0.309017
+  print $ (fromIntegral(fib 36 ) - 1) * 0.3090169815833533
   
 fib :: Int -> Int
 fib 0 = 0
